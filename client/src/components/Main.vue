@@ -288,7 +288,7 @@ import axios from 'axios'
 
       deleteItemConfirm () {
         this.users.splice(this.editedIndex, 1)
-        axios.post(`${config.BASE_URL}/api/remove`, {email: this.editedItem.email})
+        axios.post(`${config.BASE_URL}/api/remove`, {email: this.editedItem.email}, {headers: {"Access-Control-Allow-Origin": "*"}})
         this.closeDelete()
       },
 
@@ -314,16 +314,16 @@ import axios from 'axios'
         }
         this.loader = 'loading'
         if (this.editedIndex > -1) {
-          const data = await axios.post(`${config.BASE_URL}/api/update`, this.editedItem)
+          const data = await axios.post(`${config.BASE_URL}/api/update`, this.editedItem, {headers: {"Access-Control-Allow-Origin": "*"}})
           Object.assign(this.users[this.editedIndex], data.data)
         } else {
-          const data = await axios.post(`${config.BASE_URL}/api/create`, this.editedItem)
+          const data = await axios.post(`${config.BASE_URL}/api/create`, this.editedItem, {headers: {"Access-Control-Allow-Origin": "*"}})
           this.users.push(data.data)
         }
         this.close()
       },
       async initialize () {
-        const data = await axios.get(`${config.BASE_URL}/api/`)
+        const data = await axios.get(`${config.BASE_URL}/api/`, {headers: {"Access-Control-Allow-Origin": "*"}})
         this.users = data.data
       },
     },
