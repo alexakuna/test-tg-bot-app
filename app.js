@@ -134,10 +134,10 @@ app.use(express.urlencoded({ extended: false }))
 //app.use(express.static(path.join(__dirname, 'public')))
 app.use(cors())
 
-app.use('/api', indexRouter)
+app.use('/api/', indexRouter)
 app.use('/api/create', createRouter)
-app.use('/api', usersRouter)
-app.use('/api', usersRouter)
+app.use('/api/', usersRouter)
+app.use('/api/', usersRouter)
 
 // Перед деплоем раскомментировать!
 app.use(express.static(__dirname + '/dist/'))
