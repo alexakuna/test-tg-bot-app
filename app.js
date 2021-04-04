@@ -140,9 +140,9 @@ app.use('/api/', usersRouter)
 app.use('/api/', usersRouter)
 
 // Перед деплоем раскомментировать!
-app.use(express.static(__dirname + '/dist/'))
-app.get(/.*/, (req, res) => {
-    res.sendFile(__dirname + '/dist/index.html')
-})
+// app.use(express.static(__dirname + '/dist/'))
+// app.get(/.*/, (req, res) => {
+//     res.sendFile(__dirname + '/dist/index.html')
+// })
 
 module.exports = app

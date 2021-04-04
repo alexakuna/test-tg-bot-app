@@ -4,15 +4,7 @@
     <list default="true" id="365be67c-da06-4755-92ad-37c5be94d5ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.c730995f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.338cc8d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.338cc8d3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.78651e54.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.78651e54.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -63,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617563982480</updated>
       <workItem from="1617563983852" duration="1090000" />
-      <workItem from="1617565372913" duration="1434000" />
+      <workItem from="1617565372913" duration="2141000" />
     </task>
     <servers />
   </component>
